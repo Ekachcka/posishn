@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.conteiner {
+  margin: 0.38%;
+}
+.section {
+  width: 31.19%;
+  border-radius: 10px;
+  padding: 50px;
+  position: relative;
+  display: inline-block;
+}
+.s-red {
+  background: linear-gradient(
+    90deg,
+    rgba(231, 165, 83, 1) 0%,
+    rgba(236, 133, 133, 1) 49%
+  );
+}
+.s-blue {
+  background: linear-gradient(
+    90deg,
+    rgba(166, 211, 255, 1) 0%,
+    rgba(90, 165, 236, 1) 31%
+  );
+}
+.s-green {
+  background: linear-gradient(
+    90deg,
+    rgb(112, 230, 216) 0%,
+    rgba(22, 209, 188, 1) 27%
+  );
+}
+.margin {
+  margin-right: 3%;
+}
+p {
+  color: rgb(254, 252, 252);
+  width: 250px;
+}
+.p-1 {
+  margin-bottom: 36px;
+  font-size: 30px;
+}
+.p-2 {
+  margin-bottom: 60px;
+  font-size: 50px;
+}
+.p-3 {
+  font-size: 24px;
+}
+.img {
+  position: absolute;
+  top: 50px;
+  right: 45px;
+}
+.first-circle {
+  width: 280px;
+  height: 280px;
+  background: rgba(254, 252, 252, 0.3);
+  position: absolute;
+  top: -10%;
+  right: -17%;
+  border-radius: 50%;
+}
+.second-circle {
+  width: 350px;
+  height: 350px;
+  background: rgba(254, 252, 252, 0.3);
+  position: absolute;
+  bottom: -60%;
+  right: -5%;
+  border-radius: 50%;
+}
